@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Trenzas africanas en Ourense hechas por africana con años de experiencia. Boxbraids, twist, trenzas senegalesas y trenzas para niñas. Peinados duraderos en Ourense y alrededores.">
-<meta name="keywords" content="trenzas africanas Ourense, boxbraids Ourense, peluquería afro Ourense, trenzas para niñas Ourense, twist Ourense, trenzas senegalesas Ourense">
+<meta name="description" content="Trenzas africanas en Ourense hechas por africana con años de experiencia. Boxbraids, twist, trenzas con extensiones y trenzas para niñas. Peinados duraderos en Ourense y alrededores.">
+<meta name="keywords" content="trenzas africanas Ourense, boxbraids Ourense, peluquería afro Ourense, trenzas para niñas Ourense, twist Ourense, trenzas con extensiones Ourense">
 <title>Trenzas Africanas Ourense | Boxbraids · Twist · Trenzas para niñas</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +35,6 @@
     overflow-x: hidden;
   }
 
-  /* NAV */
   nav {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -74,7 +73,6 @@
 
   .nav-cta:hover { background: var(--orange-dark); }
 
-  /* HERO */
   .hero {
     min-height: 100vh;
     display: grid;
@@ -126,10 +124,7 @@
     line-height: 1.75;
   }
 
-  .hero-desc strong {
-    color: var(--black);
-    font-weight: 500;
-  }
+  .hero-desc strong { color: var(--black); font-weight: 500; }
 
   .btn-primary {
     display: inline-flex;
@@ -148,11 +143,7 @@
     width: fit-content;
   }
 
-  .btn-primary:hover {
-    background: var(--orange-dark);
-    transform: translateY(-1px);
-  }
-
+  .btn-primary:hover { background: var(--orange-dark); transform: translateY(-1px); }
   .btn-primary svg { width: 18px; height: 18px; }
 
   .hero-right {
@@ -173,57 +164,14 @@
     position: absolute;
     inset: 0;
     opacity: 0.04;
-    background-image: repeating-linear-gradient(
-      45deg,
-      var(--white) 0px,
-      var(--white) 1px,
-      transparent 1px,
-      transparent 40px
-    );
+    background-image: repeating-linear-gradient(45deg, var(--white) 0px, var(--white) 1px, transparent 1px, transparent 40px);
   }
 
-  .hero-placeholder {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    gap: 1rem;
-  }
-
-  .hero-placeholder-icon {
-    width: 80px;
-    height: 80px;
-    border: 1px solid rgba(255,107,43,0.3);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .hero-placeholder-icon svg {
-    width: 36px;
-    height: 36px;
-    stroke: var(--orange);
-    opacity: 0.6;
-  }
-
-  .hero-placeholder p {
-    font-size: 0.75rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: rgba(42,31,26,0.3);
-  }
-
-  /* GALERÍA */
   .gallery { background: var(--white); }
 
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto;
     gap: 6px;
     margin-top: 3rem;
   }
@@ -235,10 +183,7 @@
     background: var(--gray-mid);
   }
 
-  .gallery-item:first-child {
-    grid-column: span 2;
-    aspect-ratio: 4/3;
-  }
+  .gallery-item:first-child { grid-column: span 2; aspect-ratio: 4/3; }
 
   .gallery-item img {
     width: 100%;
@@ -251,16 +196,6 @@
 
   .gallery-item:hover img { transform: scale(1.04); }
 
-  @media (max-width: 768px) {
-    .gallery-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .gallery-item:first-child {
-      grid-column: span 2;
-    }
-  }
-
-  /* STATS BAR */
   .stats-bar {
     background: var(--orange);
     padding: 1.2rem 2.5rem;
@@ -270,11 +205,7 @@
     gap: 1rem;
   }
 
-  .stat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  .stat { display: flex; flex-direction: column; align-items: center; }
 
   .stat-num {
     font-family: var(--font-display);
@@ -291,7 +222,6 @@
     font-weight: 500;
   }
 
-  /* SECTION */
   section { padding: 5rem 2.5rem; }
 
   .section-tag {
@@ -305,13 +235,7 @@
     gap: 0.75rem;
   }
 
-  .section-tag::before {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 1px;
-    background: var(--orange);
-  }
+  .section-tag::before { content: ''; display: block; width: 24px; height: 1px; background: var(--orange); }
 
   .section-title {
     font-family: var(--font-display);
@@ -321,7 +245,6 @@
     margin-bottom: 1rem;
   }
 
-  /* SERVICIOS */
   .services { background: var(--gray-mid); }
 
   .services-grid {
@@ -362,20 +285,9 @@
     margin-bottom: 1rem;
   }
 
-  .service-name {
-    font-family: var(--font-display);
-    font-size: 1.6rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.5rem;
-  }
+  .service-name { font-family: var(--font-display); font-size: 1.6rem; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+  .service-desc { font-size: 0.85rem; color: rgba(42,31,26,0.5); line-height: 1.6; }
 
-  .service-desc {
-    font-size: 0.85rem;
-    color: rgba(42,31,26,0.5);
-    line-height: 1.6;
-  }
-
-  /* POR QUÉ */
   .why { background: var(--white); }
 
   .why-inner {
@@ -387,33 +299,18 @@
   }
 
   .why-list { display: flex; flex-direction: column; gap: 1.5rem; }
-
-  .why-item {
-    display: flex;
-    gap: 1.25rem;
-    align-items: flex-start;
-  }
+  .why-item { display: flex; gap: 1.25rem; align-items: flex-start; }
 
   .why-dot {
-    width: 8px;
-    height: 8px;
+    width: 8px; height: 8px;
     border-radius: 50%;
     background: var(--orange);
     margin-top: 0.4rem;
     flex-shrink: 0;
   }
 
-  .why-item-title {
-    font-weight: 500;
-    font-size: 0.95rem;
-    margin-bottom: 0.25rem;
-  }
-
-  .why-item-desc {
-    font-size: 0.85rem;
-    color: rgba(42,31,26,0.5);
-    line-height: 1.65;
-  }
+  .why-item-title { font-weight: 500; font-size: 0.95rem; margin-bottom: 0.25rem; }
+  .why-item-desc { font-size: 0.85rem; color: rgba(42,31,26,0.5); line-height: 1.65; }
 
   .why-right {
     background: var(--gray-mid);
@@ -429,49 +326,17 @@
     color: var(--orange);
     opacity: 0.1;
     position: absolute;
-    top: -1rem;
-    left: 1.5rem;
+    top: -1rem; left: 1.5rem;
     line-height: 1;
   }
 
-  .why-quote {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: rgba(42,31,26,0.8);
-    font-style: italic;
-    position: relative;
-    z-index: 1;
-  }
+  .why-quote { font-size: 1.1rem; line-height: 1.8; color: rgba(42,31,26,0.8); font-style: italic; position: relative; z-index: 1; }
+  .why-quote-author { margin-top: 1.5rem; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--orange); font-style: normal; }
 
-  .why-quote-author {
-    margin-top: 1.5rem;
-    font-size: 0.75rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--orange);
-    font-style: normal;
-  }
+  .zona { background: var(--gray-mid); text-align: center; }
+  .zona-text { font-size: 1rem; color: rgba(42,31,26,0.6); max-width: 500px; margin: 1rem auto 2.5rem; }
 
-  /* ZONA */
-  .zona {
-    background: var(--gray-mid);
-    text-align: center;
-  }
-
-  .zona-text {
-    font-size: 1rem;
-    color: rgba(245,242,238,0.55);
-    max-width: 500px;
-    margin: 1rem auto 2.5rem;
-  }
-
-  .zona-badges {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.75rem;
-    margin-top: 1.5rem;
-  }
+  .zona-badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-top: 1.5rem; }
 
   .badge {
     background: rgba(255,107,43,0.1);
@@ -484,29 +349,11 @@
     border-radius: 2px;
   }
 
-  /* CTA FINAL */
-  .cta-section {
-    background: var(--white);
-    text-align: center;
-    padding: 6rem 2.5rem;
-    border-top: 1px solid rgba(42,31,26,0.1);
-  }
-
+  .cta-section { background: var(--white); text-align: center; padding: 6rem 2.5rem; border-top: 1px solid rgba(42,31,26,0.1); }
   .cta-section .section-title { margin-bottom: 1rem; }
+  .cta-sub { font-size: 1rem; color: rgba(42,31,26,0.5); margin-bottom: 2.5rem; }
+  .cta-section .btn-primary { margin: 0 auto; font-size: 1rem; padding: 1.2rem 2.5rem; }
 
-  .cta-sub {
-    font-size: 1rem;
-    color: rgba(42,31,26,0.5);
-    margin-bottom: 2.5rem;
-  }
-
-  .cta-section .btn-primary {
-    margin: 0 auto;
-    font-size: 1rem;
-    padding: 1.2rem 2.5rem;
-  }
-
-  /* FOOTER */
   footer {
     background: var(--gray-mid);
     padding: 1.5rem 2.5rem;
@@ -515,29 +362,18 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    border-top: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(42,31,26,0.08);
   }
 
-  footer p {
-    font-size: 0.75rem;
-    color: rgba(42,31,26,0.3);
-  }
+  footer p { font-size: 0.75rem; color: rgba(42,31,26,0.3); }
+  footer a { font-size: 0.75rem; color: var(--orange); text-decoration: none; }
 
-  footer a {
-    font-size: 0.75rem;
-    color: var(--orange);
-    text-decoration: none;
-  }
-
-  /* WHATSAPP FLOAT */
   .wa-float {
     position: fixed;
-    bottom: 1.5rem;
-    right: 1.5rem;
+    bottom: 1.5rem; right: 1.5rem;
     z-index: 999;
     background: #25d366;
-    width: 56px;
-    height: 56px;
+    width: 56px; height: 56px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -548,26 +384,11 @@
   }
 
   .wa-float:hover { transform: scale(1.08); }
+  .wa-float svg { width: 28px; height: 28px; fill: white; }
 
-  .wa-float svg {
-    width: 28px;
-    height: 28px;
-    fill: white;
-  }
+  .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
 
-  /* FADE IN */
-  .fade-in {
-    opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-  }
-
-  .fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  /* MOBILE */
   @media (max-width: 768px) {
     .hero { grid-template-columns: 1fr; min-height: auto; }
     .hero-right { height: 280px; }
@@ -577,136 +398,72 @@
     section { padding: 3.5rem 1.5rem; }
     .stats-bar { padding: 1rem 1.5rem; }
     footer { flex-direction: column; text-align: center; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-item:first-child { grid-column: span 2; }
   }
 </style>
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
   <a href="#" class="nav-logo">Trenzas<span>.</span>Ourense</a>
   <a href="https://wa.me/34657266381" class="nav-cta">Pedir cita</a>
 </nav>
 
-<!-- HERO -->
 <section class="hero" style="padding: 0;">
   <div class="hero-left">
     <p class="hero-tag">Ourense · Galicia</p>
-    <h1 class="hero-title">
-      TRENZAS<br>
-      AFRICA<span>NAS</span><br>
-      EN OURENSE
-    </h1>
-    <p class="hero-desc">
-      Peinados hechos por <strong>africana con años de experiencia</strong>. Boxbraids, twist, trenzas senegalesas y trenzas para niñas. Resultados que duran semanas, en un ambiente de confianza.
-    </p>
+    <h1 class="hero-title">TRENZAS<br>AFRICA<span>NAS</span><br>EN OURENSE</h1>
+    <p class="hero-desc">Peinados hechos por <strong>africana con años de experiencia</strong>. Boxbraids, twist, trenzas con extensiones y trenzas para niñas. Resultados que duran semanas, en un ambiente de confianza.</p>
     <a href="https://wa.me/34657266381" class="btn-primary">
-      <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-      </svg>
+      <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       Escríbeme para pedir cita
     </a>
   </div>
-
   <div class="hero-right">
     <div class="hero-pattern"></div>
     <img src="foto4.png" alt="Trenzas africanas Ourense" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;position:absolute;inset:0;">
   </div>
 </section>
 
-<!-- STATS -->
 <div class="stats-bar">
-  <div class="stat">
-    <span class="stat-num">+19</span>
-    <span class="stat-label">Años trenzando</span>
-  </div>
-  <div class="stat">
-    <span class="stat-num">100%</span>
-    <span class="stat-label">Técnica africana</span>
-  </div>
-  <div class="stat">
-    <span class="stat-num">4–6</span>
-    <span class="stat-label">Semanas de duración</span>
-  </div>
+  <div class="stat"><span class="stat-num">+19</span><span class="stat-label">Años trenzando</span></div>
+  <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Técnica africana</span></div>
+  <div class="stat"><span class="stat-num">4–6</span><span class="stat-label">Semanas de duración</span></div>
 </div>
 
-<!-- SERVICIOS -->
 <section class="services">
   <p class="section-tag fade-in">Lo que ofrezco</p>
   <h2 class="section-title fade-in">Servicios</h2>
   <div class="services-grid">
-    <div class="service-card fade-in">
-      <div class="service-num">01</div>
-      <h3 class="service-name">Boxbraids</h3>
-      <p class="service-desc">Trenzas individuales clásicas con o sin extensiones. Duraderas, versátiles y perfectas para el verano.</p>
-    </div>
-    <div class="service-card fade-in">
-      <div class="service-num">02</div>
-      <h3 class="service-name">Twist</h3>
-      <p class="service-desc">Retorcidos africanos con acabado natural. Una opción ligera y elegante para cualquier ocasión.</p>
-    </div>
-    <div class="service-card fade-in">
-      <div class="service-num">03</div>
-      <h3 class="service-name">Trenzas senegalesas</h3>
-      <p class="service-desc">Trenzas finas y definidas. Perfectas para lucir todo el verano sin preocuparse por el cabello.</p>
-    </div>
-    <div class="service-card fade-in">
-      <div class="service-num">04</div>
-      <h3 class="service-name">Trenzas para niñas</h3>
-      <p class="service-desc">Peinados adaptados para las más pequeñas. Con mimo y paciencia, para que estén cómodas.</p>
-    </div>
+    <div class="service-card fade-in"><div class="service-num">01</div><h3 class="service-name">Boxbraids</h3><p class="service-desc">Trenzas individuales clásicas con o sin extensiones. Duraderas, versátiles y perfectas para el verano.</p></div>
+    <div class="service-card fade-in"><div class="service-num">02</div><h3 class="service-name">Twist</h3><p class="service-desc">Retorcidos africanos con acabado natural. Una opción ligera y elegante para cualquier ocasión.</p></div>
+    <div class="service-card fade-in"><div class="service-num">03</div><h3 class="service-name">Trenzas con extensiones</h3><p class="service-desc">Trenzas finas y definidas. Perfectas para lucir todo el verano sin preocuparse por el cabello.</p></div>
+    <div class="service-card fade-in"><div class="service-num">04</div><h3 class="service-name">Trenzas para niñas</h3><p class="service-desc">Peinados adaptados para las más pequeñas. Con mimo y paciencia, para que estén cómodas.</p></div>
   </div>
 </section>
 
-<!-- POR QUÉ -->
 <section class="why">
   <p class="section-tag fade-in">Por qué elegirme</p>
   <h2 class="section-title fade-in">Manos que<br>conocen el cabello</h2>
   <div class="why-inner">
     <ul class="why-list">
-      <li class="why-item fade-in">
-        <div class="why-dot"></div>
-        <div>
-          <p class="why-item-title">Africana con años de experiencia real</p>
-          <p class="why-item-desc">No es algo que se aprende en un curso. Es técnica y conocimiento pasado de generación en generación.</p>
-        </div>
-      </li>
-      <li class="why-item fade-in">
-        <div class="why-dot"></div>
-        <div>
-          <p class="why-item-title">Peinados que duran semanas</p>
-          <p class="why-item-desc">Olvídate del cabello durante 4 a 6 semanas. Ideal para el verano, la playa y el día a día.</p>
-        </div>
-      </li>
-      <li class="why-item fade-in">
-        <div class="why-dot"></div>
-        <div>
-          <p class="why-item-title">Ambiente cómodo y de confianza</p>
-          <p class="why-item-desc">Un espacio donde te vas a sentir como en casa. Sin prisas, con atención personalizada.</p>
-        </div>
-      </li>
-      <li class="why-item fade-in">
-        <div class="why-dot"></div>
-        <div>
-          <p class="why-item-title">En Ourense, sin desplazarte</p>
-          <p class="why-item-desc">Ya no hace falta ir a Vigo o A Coruña. Trenzas africanas de calidad aquí mismo.</p>
-        </div>
-      </li>
+      <li class="why-item fade-in"><div class="why-dot"></div><div><p class="why-item-title">Africana con años de experiencia real</p><p class="why-item-desc">No es algo que se aprende en un curso. Es técnica y conocimiento pasado de generación en generación.</p></div></li>
+      <li class="why-item fade-in"><div class="why-dot"></div><div><p class="why-item-title">Peinados que duran semanas</p><p class="why-item-desc">Olvídate del cabello durante 4 a 6 semanas. Ideal para el verano, la playa y el día a día.</p></div></li>
+      <li class="why-item fade-in"><div class="why-dot"></div><div><p class="why-item-title">Ambiente cómodo y de confianza</p><p class="why-item-desc">Un espacio donde te vas a sentir como en casa. Sin prisas, con atención personalizada.</p></div></li>
+      <li class="why-item fade-in"><div class="why-dot"></div><div><p class="why-item-title">En Ourense, sin desplazarte</p><p class="why-item-desc">Ya no hace falta ir a Vigo o A Coruña. Trenzas africanas de calidad aquí mismo.</p></div></li>
     </ul>
     <div class="why-right fade-in">
-      <p class="why-quote">
-        Este verano, luce trenzas perfectas sin preocuparte por tu cabello. Cómodas, duraderas y hechas con mimo por quien de verdad sabe.
-      </p>
+      <p class="why-quote">Este verano, luce trenzas perfectas sin preocuparte por tu cabello. Cómodas, duraderas y hechas con mimo por quien de verdad sabe.</p>
       <p class="why-quote-author">Trenzas Africanas Ourense</p>
     </div>
   </div>
 </section>
 
-<!-- ZONA -->
 <section class="zona">
   <p class="section-tag fade-in" style="justify-content: center;">Dónde atiendo</p>
   <h2 class="section-title fade-in">Ourense<br>y alrededores</h2>
-  <p class="zona-text fade-in">Atiendo en Ourense ciudad y municipios cercanos. Escríbeme para confirmar disponibilidad en tu zona.</p>
+  <p class="zona-text fade-in">Atiendo presencialmente en Ourense. Los desplazamientos a domicilio son valorables según la zona y la distancia. Escríbeme y lo hablamos.</p>
   <div class="zona-badges fade-in">
     <span class="badge">Ourense</span>
     <span class="badge">Barbadás</span>
@@ -717,65 +474,43 @@
   </div>
 </section>
 
-<!-- GALERÍA -->
 <section class="gallery">
   <p class="section-tag fade-in">Portfolio</p>
   <h2 class="section-title fade-in">Trabajos reales</h2>
   <div class="gallery-grid">
-    <div class="gallery-item fade-in">
-      <img src="foto2.png" alt="Boxbraids rojas Ourense">
-    </div>
-    <div class="gallery-item fade-in">
-      <img src="foto1.png" alt="Twist africanos Ourense">
-    </div>
-    <div class="gallery-item fade-in">
-      <img src="foto3.png" alt="Trenzas rubias Ourense">
-    </div>
-    <div class="gallery-item fade-in">
-      <img src="foto5.png" alt="Trenzas africanas Ourense">
-    </div>
-    <div class="gallery-item fade-in">
-      <img src="foto4.png" alt="Trenzas doradas Ourense">
-    </div>
+    <div class="gallery-item fade-in"><img src="foto2.png" alt="Boxbraids rojas Ourense"></div>
+    <div class="gallery-item fade-in"><img src="foto1.png" alt="Twist africanos Ourense"></div>
+    <div class="gallery-item fade-in"><img src="foto3.png" alt="Trenzas rubias Ourense"></div>
+    <div class="gallery-item fade-in"><img src="foto5.png" alt="Trenzas africanas Ourense"></div>
+    <div class="gallery-item fade-in"><img src="foto4.png" alt="Trenzas doradas Ourense"></div>
   </div>
 </section>
 
-<!-- CTA FINAL -->
 <section class="cta-section">
   <p class="section-tag fade-in" style="justify-content: center;">Reserva tu cita</p>
   <h2 class="section-title fade-in">¿Lista para<br>lucir trenzas?</h2>
   <p class="cta-sub fade-in">Escríbeme por WhatsApp y te doy fecha.</p>
   <a href="https://wa.me/34657266381" class="btn-primary fade-in">
-    <svg viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-    </svg>
+    <svg viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     Escríbeme por WhatsApp
   </a>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <p>© 2025 Trenzas Africanas Ourense · Todos los derechos reservados</p>
   <a href="https://wa.me/34657266381">657 26 63 81</a>
 </footer>
 
-<!-- WA FLOAT -->
 <a href="https://wa.me/34657266381" class="wa-float" aria-label="Contactar por WhatsApp">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-  </svg>
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 
 <script>
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.classList.add('visible');
-        observer.unobserve(e.target);
-      }
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
     });
   }, { threshold: 0.12 });
-
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 </script>
 
